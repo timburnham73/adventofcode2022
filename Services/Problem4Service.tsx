@@ -56,7 +56,7 @@ class Problem4Service {
             
         } 
         
-        console.log(`Count of overlapping assignments ${countOfOverlappingAssignments}`);
+        //console.log(`Count of overlapping assignments ${countOfOverlappingAssignments}`);
         return countOfOverlappingAssignments;
     }
 
