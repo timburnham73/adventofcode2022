@@ -4,6 +4,7 @@ import problem3Service from "./Problem3Service";
 import problem4Service from "./Problem4Service";
 import {AdventProblemInfo} from "../types/AdventProblemInfo"
 import problem5Service from "./Problem5Service";
+import problem6Service from "./Problem6Service";
 
 class AdventProblemService{
     
@@ -19,6 +20,8 @@ class AdventProblemService{
         results.push({ part1Result: problem4Service.solvePart1(), part2Result :problem4Service.solvePart2() });
 
         results.push({ part1Result: problem5Service.solvePart1(), part2Result :problem5Service.solvePart2() });
+
+        results.push({ part1Result: problem6Service.solvePart1(), part2Result :problem6Service.solvePart2() });
 
         return results;
     }

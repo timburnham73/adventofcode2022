@@ -71,12 +71,6 @@ class Problem5Service{
         cargo.push(['Q','M','T','Z','D','V','S','H']);
         cargo.push(['M','G','F','P','N','Q']);
         cargo.push(['B','W','R','M']);
-    
-        //cargo.push(['Z','N']);
-        //cargo.push(['M','C','D']);
-        //cargo.push(['P']);
-
-        //Not these answers
         
         return cargo;
     }

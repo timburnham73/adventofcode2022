@@ -1,4 +1,4 @@
 export type AdventProblemInfo = {
-    part1Result: number,
-    part2Result: number
+    part1Result: number | string,
+    part2Result: number | string
 }
